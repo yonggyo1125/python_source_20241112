@@ -1,5 +1,7 @@
-import mod1
-result1 = mod1.add(10, 20)
-result2 = mod1.sub(20, 10)
+import sys  # sys 모듈 
+#print(sys.path)
+sys.path.append("D:/mymod")
 
-print(f"result1={result1}, result2={result2}")
+import mod1
+import mod2
+print(mod2.PI)
