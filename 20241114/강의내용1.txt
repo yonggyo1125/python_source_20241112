@@ -19,13 +19,27 @@ mod1 : 모듈명
 4. If __name__ ==  “__main__”:  의 의미
 
 5. __name__ 변수란?
+- 모듈명
+- python.exe 파이썬 파일명 -> 실행되는 모듈 __main__
+- import 모듈명  -> 모듈명(__name__)
 
 
 6. 클래스나 변수 등을 포함한 모듈
 
 7. 다른 파일에서 모듈 불러오기 
 
+path - 환경변수 / 여기에 경로가 입력이 되면 모든 경로에서 접근 가능 
+
+sys 내장 모듈
+sys.path : 파이썬 PATH 환경 변수, 여기에 등록된 경로는 파이썬 파일 어디에서도 접근 가능!
+		   : 리스트(list)
+		   : append(경로)
+
 8. 다른 디렉토리에 이는 모듈을 불러오는 방법
 
 1)  sys.path.append 사용하기
 2) PYTHONPATH 환경 변수 사용하기
+
+set PYTHONPATH=D:/mymod   - 윈도우즈 기준 
+
+export PYTHONPATH=경로  - 리눅스, 맥 기준
