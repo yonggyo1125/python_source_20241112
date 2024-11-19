@@ -1,0 +1,7 @@
+정적 웹크롤링 - request / beautifulsoup
+1. 정적 웹크롤링 관련 패키지
+1) 1단계. requests
+2) 2단계. BeautifulSoup4
+3) 3단계. BeautifulSoup4 (find /select)
+- find( ), find_all( ) 함수
+- select( ), select_one( ) 함수
