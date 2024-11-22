@@ -1,0 +1,16 @@
+정적 웹크롤링 - request / beautifulsoup
+1. 정적 웹크롤링 관련 패키지
+1) 1단계. requests
+2) 2단계. BeautifulSoup4
+3) 3단계. BeautifulSoup4 (find /select)
+- find(), find_all()
+- select(), select_one() 
+
+
+
+정적 웹크롤링 - 텍스트, 하이퍼링크, 이미지 가져오기
+1. 크롤링 할 페이지(url) HTML 가져오기
+2. 크롤링 할 페이지 실제로 들어가서 추출할 HTML 확인하기
+1) 텍스트 추출 / .get_text()
+2) 링크 추출 / .attrs['href']
+3) 이미지 추출 .attrs['src']

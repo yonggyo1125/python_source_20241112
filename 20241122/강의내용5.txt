@@ -1,0 +1,16 @@
+동적 웹크롤링 - selenium으로 화면 조작하기
+1. Selenium으로 화면 조작하기
+2. 개념
+1) 조작을 원하는 버튼이나 입력창의 html을 파악
+2) 아래의 두 함수에 html 정보를 입력해서 객체(버튼/입력창 등) 선택
+- find_element(By.ID)
+- find_element(By.CLASS_NAME)
+- find_element(By.XPATH)
+- find_element(By.CSS_SELECTOR)
+3) 기능 동작 관련 함수로 원하는 기능 조작
+- 클릭 : .click( )
+- 키 입력: .send_keys( )
+
+3. 1단계. 원하는 버튼의 html 타겟팅
+4. 2단계. Selenium으로 타겟팅한 html 찾기
+5. 3단계. 원하는 조작 수행
