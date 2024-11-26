@@ -1,5 +1,14 @@
 동적 웹크롤링 - selenium 소개 및 기초사용법
+정적 웹크롤링에서 
+- 자바스크립트 동적 로딩을 통한 HTML데이터는 가져올 수 없다.
+- 그래서 필요한 것이 동적 웹크롤링
+
 1. selenium 패키지란?
+	- 브라우저 웹 매크로
+	- 크롬 웹 드라이버 설치
+	참고)
+		pyauto : 일반 애플케이션 매크로
+
 2. 설치 방법
 3. 사용 방법
 1) 관련 패키지 import
@@ -7,3 +16,19 @@
 3) 사용 방법
 1) 관련 패키지 import
 2) 크롬 드라이버 실행
+	webdriver 
+		find_element(...., "클래스, 아이디 이름")
+		
+		By.TAG_NAME  : a, div, td 
+		By.ID : 태그의 id 속성으로 선택
+		By.CLASS_NAME : 태그의 class 속성으로 선택
+		By.CSS_SELECTOR : CSS 선택자로 선택 ( #아이디, .클래스명 ..)
+
+	
+		send_keys(텍스트) - 값의 입력 
+		click() : 클릭을 한번 한것 처럼 
+참고) 
+서버(server)
+	- 요청한 서비스를 제공하는 쪽 
+
+브라우저(client)
