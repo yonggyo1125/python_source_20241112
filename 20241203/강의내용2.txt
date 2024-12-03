@@ -27,3 +27,9 @@
 4) sub 메서드의 매개변수로 함수 넣기
 
 5. greedy와 non-greedy
+
+greedy : 최대 매칭 
+패턴* :
+
+non-greedy : 최소 매칭 
+패턴*? 
